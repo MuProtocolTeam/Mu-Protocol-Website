@@ -1,0 +1,56 @@
+.hp_features {
+    width: 100%;
+    background: #ffffff;
+
+    .features{
+        padding: 200px 0;
+
+        .title{
+            color: #0f1529;
+            font-size: 50px;
+            line-height: 72px;
+        }
+
+        .f_item{
+            width: 100%;
+            padding: 40px;
+            border-radius: 24px;
+            background-color: #f0f8f8;
+            color: #0f1529;
+
+            .index{
+                font-size: 22px;
+                line-height: 28px;
+            }
+
+            .f_title{
+                margin: 10px 0;
+                font-size: 28px;
+                line-height: 40px;
+            }
+
+            .f_des{
+                font-size: 18px;
+                line-height: 26px;
+            }
+
+            .f_learn_more{
+                color: #39842d;
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+
+        .f_item_2{
+            background-color: #f0f8f8;
+        }
+
+        .f_item_3{
+            background-color: #f0f8f8;
+        }
+
+        .f_item_4{
+            background-color: #f0f8f8;
+        }
+    }
+}

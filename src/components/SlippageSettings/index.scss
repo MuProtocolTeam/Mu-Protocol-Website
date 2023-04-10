@@ -1,0 +1,42 @@
+.slippage_settings_trigger {
+    position: relative;
+}
+.slippage_settings_box {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    z-index: 999;
+    width: 380px;
+    height: 294px;
+    padding: 24px;
+    background-color: #ffffff;
+
+    .s_item {
+        padding: 10px 16px;
+        color: #707e85;
+    }
+
+    .s_item.active {
+        border-color: #31c1bf !important;
+        color: #31c1bf;
+    }
+
+    .s_item.custom {
+        width: 110px;
+        background-color: #f8fafa;
+    }
+
+    .custom_input {
+        max-width: 60px;
+        color: #1b2022;
+        line-height: 20px;
+        font-size: 14px;
+
+        input {
+            max-width: 60px;
+            height: 20px;
+            line-height: 20px;
+            background-color: #f8fafa;
+        }
+    }
+}

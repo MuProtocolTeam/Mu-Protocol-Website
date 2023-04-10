@@ -1,0 +1,115 @@
+.hp_musd {
+    width: 100%;
+    background: #ffffff;
+
+    .musd{
+        padding: 100px 0;
+
+        .m_item{
+            width: 550px;
+            padding: 30px;
+            border-radius: 16px;
+            background-color: #ffffff;
+            box-shadow: 0px 5.32114px 26.6057px rgba(9, 19, 21, 0.08);
+            border: 1px solid #e6e8ea;
+        }
+    }
+
+    .token_input_box{
+        width: 100%;
+        padding: 20px;
+        background-color: #f8f8fa;
+        border: 1px solid #e7ecef;
+        border-radius: 20px;
+
+        .balance{
+            color: #585858;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .token_name{
+            color: #585858;
+            font-size: 16px;
+            line-height: 25px;
+        }
+
+        .i_number {
+            input {
+                width: 100%;
+                padding: 13px 0 13px 13px;
+                background-color: #f8f8fa;
+                font-size: 28px;
+                line-height: 40px;
+                font-family: 'Switzer-Semibold';
+                text-align: right;
+            }
+        }
+    }
+
+    .sub_btn{
+        width: 100%;
+        padding: 10px 16px;
+        background-color: #39842d;
+        border-radius: 90px;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .mint_redeem{
+        .tab{
+            width: 300px;
+            padding: 2px;
+            background-color: #f6f8fe;
+            border-radius: 100px;
+
+            .item{
+                width: 150px;
+                padding: 8px;
+                color: #585858;
+                font-size: 16px;
+                line-height: 25px;
+                text-align: center;
+            }
+
+            .item.active{
+                background: #FFFFFF;
+                box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+                border-radius: 100px;
+                font-family: 'Switzer-Semibold';
+            }
+        }
+    }
+
+    .m_item.analysis{
+        padding: 0px;
+
+        .metrics,
+        .chart{
+            width: 100%;
+            padding: 30px;
+        }
+
+        .metrics{
+            border-bottom: 1px solid #e6e8ea;
+        }
+
+        .chart{
+            height: 219px;
+        }
+
+        .m_title{
+            color: #585858;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .m_value{
+            margin-top: 10px;
+            color: #0f1529;
+            font-size: 22px;
+            line-height: 28px;
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.i_icon,
+.i_icon_a,
+.i_icon_16,
+.i_icon_20,
+.i_icon_24,
+.i_icon_28,
+.i_icon_32,
+.i_icon_36,
+.i_icon_40,
+.i_icon_48,
+.i_icon_84 {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.i_icon_a {
+    display: inline-block;
+}
+.i_icon_a_f {
+    display: flex;
+}
+
+.i_icon_16 {
+    width: 16px;
+    height: 16px;
+}
+
+.i_icon_20 {
+    width: 20px;
+    height: 20px;
+}
+
+.i_icon_24 {
+    width: 24px;
+    height: 24px;
+}
+.i_icon_28 {
+    width: 28px;
+    height: 28px;
+}
+
+.i_icon_32 {
+    width: 32px;
+    height: 32px;
+}
+.i_icon_36 {
+    width: 36px;
+    height: 36px;
+}
+.i_icon_40 {
+    width: 40px;
+    height: 40px;
+}
+
+.i_icon_48 {
+    width: 48px;
+    height: 48px;
+}
+.i_icon_84 {
+    width: 84px;
+    height: 84px;
+}
+
+.i_icon_button {
+    cursor: pointer;
+}
+
+.icon_website_logo {
+    background-image: url('./img/icon_website_logo.svg');
+}
+
+.icon_website_logo_gray {
+    width: 108px;
+    height: 23px;
+    background-image: url('./img/icon_website_logo_gray.svg');
+}
+
+.i_external_link {
+    background-image: url('./img/i_external_link.svg');
+}
+
+.i_social_media_twitter {
+    background-image: url('./img/i_social_media_twitter.svg');
+}
+
+.i_social_media_telegram {
+    background-image: url('./img/i_social_media_telegram.svg');
+}
+
+.i_social_media_medium {
+    background-image: url('./img/i_social_media_medium.svg');
+}
+
+.i_social_media_gitHub {
+    background-image: url('./img/i_social_media_gitHub.svg');
+}
+
+.i_social_media_discord {
+    background-image: url('./img/i_social_media_discord.svg');
+}

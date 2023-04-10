@@ -1,0 +1,28 @@
+.hp_banner {
+    width: 100%;
+    background: #d5edcb;
+
+    .banner{
+        padding: 100px 0;
+
+        .title{
+            color: #39842d;
+            font-size: 64px;
+            line-height: 80px;
+        }
+
+        .des{
+            max-width: 600px;
+            color: #585858;
+            font-size: 25px;
+            line-height: 32px;
+        }
+
+        .logo{
+            width: 400px;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    }
+}
